@@ -1,0 +1,48 @@
+right_format = "[$time]($style)"
+
+[character]
+error_symbol = "[➜](bold red)"
+success_symbol = "[➜](bold green)"
+
+[package]
+disabled = true
+
+[directory]
+truncation_length = 20
+truncate_to_repo = false
+truncation_symbol = ".../"
+
+[git_branch]
+symbol = ""
+format = '[$symbol$branch]($style) '
+
+[git_status]
+disabled = false
+deleted = ""
+
+[hostname]
+disabled = false
+
+[username]
+style_user = "white bold"
+style_root = "black bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[time]
+format = "[$time]($style)"
+disabled = false
+
+[aws]
+disabled = true
+[gcloud]
+disabled = true
+[bun]
+disabled = true
+[nodejs]
+disabled = true
+[rust]
+disabled = true
+[docker_context]
+disabled = true

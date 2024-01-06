@@ -1,0 +1,20 @@
+[colors.cursor]
+cursor = "#C6CC00"
+
+[colors.primary]
+foreground = "#17D5C1"
+background = "#2F2F2F"
+
+[cursor]
+unfocused_hollow = true
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "HackGen35 Console NF"
+style = "Bold"
+
+[scrolling]
+history = 100000
+multiplier = 1

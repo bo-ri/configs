@@ -18,3 +18,7 @@ style = "Bold"
 [scrolling]
 history = 100000
 multiplier = 1
+
+[window.padding]
+x = 5
+y = 0

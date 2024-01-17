@@ -1,0 +1,53 @@
+# ファイルツリー
+[[plugins]]
+repo = "preservim/nerdtree"
+
+[[plugins]]
+repo = "jistr/vim-nerdtree-tabs"
+
+# icon
+# nerdtreeとかairlineでいい感じにnerdfont使うやつ
+[[plugins]]
+repo = "ryanoasis/vim-devicons"
+
+# git の差分を横に表示してるくれるやつ
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+# 自動で対応するカッコを閉じてくれるやつ
+[[plugins]]
+repo = "Townk/vim-autoclose"
+on_i = 1
+
+# ステータスバーをカッコよくするやつ
+[[plugins]]
+repo = "vim-airline/vim-airline"
+
+[[plugins]]
+repo = "vim-airline/vim-airline-themes"
+
+# fzf
+[[plugins]]
+repo = 'junegunn/fzf'
+build_on = '''
+./install -all
+'''
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+# google翻訳してるれるやつ
+[[plugins]]
+repo = 'skanehira/translate.vim'
+
+# コメントアウトするやつ
+[[plugins]]
+repo = "tpope/vim-commentary"
+
+# シンタックスハイライト
+[[plugins]]
+repo = "sheerun/vim-polyglot"
+
+# 対応するカッコも消してくれるやつ
+[[plugins]]
+repo = "jiangmiao/auto-pairs"

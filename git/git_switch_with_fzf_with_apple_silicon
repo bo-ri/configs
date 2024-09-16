@@ -1,0 +1,1 @@
+for branch in $(git branch | cut -c 3-) ; do printf "%-35s : %s\n" $branch "$(git config branch.$branch.description | sed -e ':a' -e 'N' -e 's/\n/ /g')" ; done | fzf --preview "echo '{}' | sed 's/\s*:.*//' | xargs -I@ git log --graph --decorate -pretty=oneline --abbrev-commit @" | sed 's/:.*//' | xargs git switch

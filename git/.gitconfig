@@ -1,0 +1,18 @@
+[core]
+	quotepath = false
+	pager = LESSCHARSET=utf-8 less
+[alias]
+	dft = difftool
+	s = !git_switch_with_fzf
+	d = !git branch --edit-description
+[init]
+	defaultBranch = main
+[diff]
+  tool = difftastic
+	external = difft
+[difftool]
+  prompt = false
+[difftool "difftastic"]
+  cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+  difftool = true

@@ -2,7 +2,6 @@
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:~/Library/Python/2.7/bin:$GOPATH/bin:~/.bin:~/.cargo/bin:$PATH
 
 export EDITOR=vim
-export GOPATH=$HOME/go
 export STARSHIP_CONFIG=~/.config/starship.toml
 
 ## fzf on tmux の設定
@@ -43,3 +42,4 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(mise activate zsh)"

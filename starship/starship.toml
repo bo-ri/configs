@@ -32,7 +32,7 @@ show_always = true
 
 [time]
 format = "[$time]($style)"
-disabled = false
+disabled = true
 
 [aws]
 disabled = true
